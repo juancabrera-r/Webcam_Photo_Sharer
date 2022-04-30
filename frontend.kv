@@ -15,6 +15,25 @@
 
 
 <ImageScreen>:
+    GridLayout:
+        cols: 1
+        Image:
+            id: image
+
+        Button:
+            text: 'Create Shareable Link'
+            on_press: root.create_link()
+        Label:
+            id: link
+            text :''
+        GridLayout:
+            cols: 2
+            Button:
+                text: 'Copy Link'
+                on_press: root.copy_link()
+            Button:
+                text: 'Open Link'
+                on_press: root.open_link()
 
 
 
