@@ -1,0 +1,21 @@
+Title: Webcam Photo Share
+Description: An app that start the computer webcam, lets the user capture a photo and uploads
+a photo to the web and creates a sharable link.
+Objects:
+        Webcam
+            start()
+            stop()
+            capture()
+        Photo
+
+        FileSharer:
+            filepath
+            api
+            share()
+
+
+
+Frontend:
+
+
+Backend:
